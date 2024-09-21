@@ -10,7 +10,7 @@ export default function RegisterPage() {
   return (
     <div className="flex min-h-screen bg-gray-100">
       <div className="flex-1 flex flex-col bg-white shadow-md p-8">
-        <h3 className="text-2xl font-bold mb-4">TodoList</h3>
+        <h3 className="text-2xl font-bold mb-4">Image Sharing App</h3>
         <SideMotivation
           title={motivation.title}
           description={motivation.description}
@@ -25,7 +25,7 @@ export default function RegisterPage() {
                 htmlFor="fullName"
                 className="block text-sm font-medium text-gray-700"
               >
-                Full Name
+                Username
               </label>
               <input
                 type="text"

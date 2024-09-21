@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import SideMotivation from "../SideMotivation";
 
@@ -11,7 +11,7 @@ export default function LoginPage() {
   return (
     <div className="flex min-h-screen bg-gray-100">
       <div className="flex-1 flex flex-col bg-white shadow-md p-8">
-        <h3 className="text-2xl font-bold mb-4">TodoList</h3>
+        <h3 className="text-2xl font-bold mb-4">Image Sharing App</h3>
         <SideMotivation title={motivation.title} description={motivation.description}/>
       </div>
       <div className="flex-1 flex items-center justify-center bg-blue-50">
